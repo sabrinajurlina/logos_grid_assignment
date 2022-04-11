@@ -1,0 +1,36 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "beats amazon apple adidas"
+    "adidas2 apple2 amazon2 beats2"
+}
+img{
+    width: 30%;
+    height: 80%;
+}
+#adidas{
+    grid-area: adidas;
+}
+#adidas2{
+    grid-area: adidas2;
+}
+#apple{
+    grid-area: apple;
+}
+#apple2{
+    grid-area: apple2;
+}
+#amazon{
+    grid-area:amazon;
+}
+#amazon2{
+    grid-area:amazon2;
+}
+#beats{
+    grid-area: beats;
+}
+#beats2{
+    grid-area: beats2;
+}
